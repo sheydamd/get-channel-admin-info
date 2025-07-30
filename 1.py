@@ -1,7 +1,7 @@
 from telegram.ext import Application, MessageHandler, filters
 import os
 
-TOKEN = "7660968231:AAE_zU2W0XBquoyrO22VtADv2s987v16OrM"
+TOKEN = "you-token"
 
 async def handler(update, context):
     chat = update.effective_chat
